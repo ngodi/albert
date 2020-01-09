@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import  TopMenu from './Components/TopMenu/TopMenu';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Ngodi Albert</h1><h3>FullStack Developer</h3>
-      </header>
+     <TopMenu />
     </div>
   );
 }
