@@ -1,0 +1,13 @@
+.jobheading{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.experienceItem ul li{
+    text-align: left;
+}
+.experienceItem {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px
+}

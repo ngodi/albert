@@ -1,3 +1,5 @@
 .leftsidebar{
     text-align: left;
+    margin: 0 auto;
+    position: fixed;
 }

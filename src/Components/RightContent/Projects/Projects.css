@@ -1,0 +1,18 @@
+.project {
+    width: 300px;
+    box-shadow: 2px 2px 4px lightgray;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    border: 1px solid lightblue;
+    padding: 3px;
+}
+.tech{
+    display: flex;
+    justify-content: space-evenly;
+}

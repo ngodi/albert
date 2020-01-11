@@ -3,7 +3,7 @@ import './Heading.css';
 
 const Heading = () => {
   return (
-    <div class="title">
+    <div class="heading">
       <h1>Ngodi Albert</h1>
       <span>Full-stack Developer</span>
    </div>
