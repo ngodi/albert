@@ -1,0 +1,21 @@
+.about{
+    margin: 30px auto;
+    min-height: 400px;
+    line-height: 40px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.about p{
+    text-align: justify;
+}
+.myskills{
+    text-align: left;
+    font-weight: bold;
+}
+
+.myskills span{
+    border: 1px solid lightgray;
+    padding: 2px 5px;
+    margin: 2px;
+}
