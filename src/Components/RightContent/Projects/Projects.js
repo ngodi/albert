@@ -24,7 +24,7 @@ const Projects = () => {
  })
   return (
     <div class="projects">
-      <h3>Software Projects</h3>
+      <h2><i class="fas fa-laptop-code"></i> Software Projects</h2>
        {projects}
     </div>
   );

@@ -3,6 +3,7 @@ import './RightContent.css';
 
 import Projects from './Projects/Projects';
 import Experience from './Experience/Experience';
+import Education from './Education/Education';
 import Navigation from './Navigation/Navigation';
 
 const RightContent = () => {
@@ -12,6 +13,7 @@ const RightContent = () => {
        <Navigation />
        <Projects />
        <Experience />
+       <Education />
     </div>
   );
 }
