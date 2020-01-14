@@ -2,13 +2,13 @@
     margin: 100px auto;
     min-height: 400px;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 30px;
 
 }
 
 .about p{
-    text-align: left;
+    text-align: justify;
     font-family:'Courier New', Courier, monospace;
     color: gray;
    
@@ -16,14 +16,10 @@
 .about h2{
     margin-bottom: 30px;
 }
-.myskills{
-    text-align: center;
-    color: white;
+.about-data{
+    display: flex;
+    justify-content: space-between;
 }
-
-.myskills span{
-    border: 1px solid lightgray;
-    background: lightseagreen;
-    padding: 2px 5px;
-    margin: 2px;
+.about-desc{
+   margin-left: 50px;
 }
