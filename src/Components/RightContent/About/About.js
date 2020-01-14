@@ -8,17 +8,13 @@ const About = () => {
     <div class="about">
         <h2>About Me</h2>
        <p>
-       Have great passion for developing software solutions to solve everyday problems. Improving my skills and knowledge daily so as to boost my talent and having an opportunity to exploit my competence is my ultimate routine. Meeting like minded developers as well as having a challenging job will be very satisfying. 
-       </p>
-       <p>
-       I speak both French and English, intend to learn Spanish, Chinese and German.
-Also a music lover.
-       </p>
-       <p>
-           I am proactive, excellent communicator, punctual, respectful, honest, humble, loyal and love learning.
+       I am a Senior Software Developer with over 5 years of experience developing software with high standards and interacting 
+       with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. 
+       I am a self-starter with a proven ability to leverage multiple technologies to build interactive and innovative applications.
+       I have a Bachelor's Degree in Computer Science and work with technologies such as : 
        </p>
       <div className="myskills">
-          Tech stack: 
+           
           <span>Ruby  </span>
           <span>Ruby on Rails  </span>
           <span>Javascript  </span>

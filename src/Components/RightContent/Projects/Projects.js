@@ -9,23 +9,27 @@ const Projects = () => {
  const projects = projectList.map(project => {
      return (
          <div class = "project">
-            <h3>{project.title}</h3>
-            <img src = {project.preview} alt="Preview" width = "300px"/>
-            <p>{project.description}</p>
-            <p className = "tech">Technology Stack:{project.tech.map(tec => 
-                 <span>{tec}</span>
-            )}</p>
-           <div className = "links">
-           <a target = "_blank" href = {project.code} >Source code</a>
-            <a target = "_blank" href = {project.demo} >Live Preview</a>
-           </div>
+           <img src = {project.preview} alt="Preview" width = "50%"/>
+            <div className="project-content">
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <p className = "tech">Utilized:{project.tech.map(tec => 
+                  <span className="tec">{tec}</span>
+              )}</p>
+              <div className = "links">
+              <a target = "_blank" href = {project.code} >View code</a>
+                <a target = "_blank" href = {project.demo} >Live Preview</a>
+              </div>
+            </div>           
          </div>
      )
  })
   return (
     <div class="projects">
       <h2><i class="fas fa-laptop-code"></i> Software Projects</h2>
+       <div className="projects-list">
        {projects}
+       </div>
     </div>
   );
 }

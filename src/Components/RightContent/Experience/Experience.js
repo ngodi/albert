@@ -9,8 +9,8 @@ const Experience = () => {
         return (
             <div className = "experienceItem">
               <div className = "jobheading">
-                <span>Job Title: {exp.job}</span>
-                <span>Company Name: {exp.company}</span>
+                <span>{exp.job}</span>
+                <span>@ {exp.company}</span>
                 <span> {exp.period}</span>
               </div>
               <ul>{exp.description.map(item => {

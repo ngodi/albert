@@ -1,13 +1,25 @@
 .jobheading{
-    display: flex;
-    justify-content: space-evenly;
     margin: 20px 0;
+    color: gray;
+    border-bottom: 1px dotted yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .experienceItem ul li{
     text-align: left;
+    list-style-type: none;
 }
 .experienceItem {
-    border: 1px solid gray;
+
+    box-shadow: 2px 8px 8px gray;
     border-radius: 15px;
-    padding: 10px
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 30px;
+    margin: 20px auto;
+    color: gray;
+}
+.experience{
+    margin: 100px auto;
 }

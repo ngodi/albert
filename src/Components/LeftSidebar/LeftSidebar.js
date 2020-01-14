@@ -11,9 +11,11 @@ const LeftSidebar = () => {
     <div class="leftsidebar">
       <Heading />
       <img class="img-circle" src="./images/profile_pic.jpg" alt="portrait" width="200px" height="200px"></img>
-      <Information />
+     <div className="info">
+     <Information />
       <Skills />
       <Social />
+     </div>
     </div>
   );
 }

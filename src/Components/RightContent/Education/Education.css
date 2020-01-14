@@ -1,11 +1,17 @@
 .academic{
     margin: 20px 0;
     text-align: justify;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    color:gray;
 }
 .degree, .school{
-    border-right: 1px solid black;
+    border-right: 1px solid blueviolet;
     padding: 0 10px;
 }
 .period{
     padding-left: 10px;
+}
+.education{
+    margin: 100px auto;
 }

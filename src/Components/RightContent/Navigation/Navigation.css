@@ -3,9 +3,10 @@
 }
 .navigation{
     position: fixed;
-    background: white;
+    background: #F6F9FC;
     z-index: 10;
     padding: 30px;
     width: 100%;
     margin: -20px;
+    color: blueviolet;
 }
