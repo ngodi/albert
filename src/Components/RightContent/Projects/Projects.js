@@ -5,14 +5,12 @@ import { projectList } from './projectsData';
 import './Projects.css';
 
 const Projects = () => {
-
  const projects = projectList.map(project => {
      return (
          <div class = "project">
-           <img src = {project.preview} alt="Preview" width = "50%"/>
+           <img src = {project.preview} alt="Preview" width = "100%"/>
             <div className="project-content">
               <h3>{project.title}</h3>
-              <p>{project.description}</p>
               <p className = "tech">Utilized:{project.tech.map(tec => 
                   <span className="tec">{tec}</span>
               )}</p>

@@ -1,12 +1,13 @@
 .project {
-    width: 50%;
-    height: 300px;
+    width: 400px;
     box-shadow: 2px 8px 8px lightgray;
     border-radius: 10px;
-    margin: 50px 0;
+    margin: 50px auto;
+    position: relative;
 }
+
 .projects{
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .links{
@@ -16,10 +17,15 @@
 .links a{
     border: 1px solid lightblue;
     padding: 3px;
+    background: blueviolet;
+    text-decoration: none;
+    color:white;
+    font-size: bold;
 }
 .tech{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .title{
     color:white;
@@ -27,26 +33,29 @@
 .project p{
     padding: 5px;
 }
-.tec{
-color: white;
-}
-.links a{
-    background: blueviolet;
-    text-decoration: none;
-    color:white;
-    font-size: bold;
-}
+
 .project img{
-    float: left;
     height: 100%;
     padding: 10px;
 }
+
 .project-content{
+    height: 50%;
     display:flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-direction: column;
+    text-align: justify;
+    color: lightgreen;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.562);
+    border-radius: 5px;
+
 }
+
 .projects-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }

@@ -1,9 +1,10 @@
 .academic{
-    margin: 20px auto;
     width: 500px;
-    text-align: justify;
+    margin: 10px auto;
+    text-align: center;
     font-family:'Courier New', Courier, monospace;
     color:white;
+    background: linear-gradient(to right, blueviolet,rgb(78, 118, 192));
     border: 1px solid blueviolet;
     display: flex;
     flex-direction: column;
@@ -20,6 +21,17 @@
     margin: 100px auto 0 auto;
 }
 .academic-list{
-    background: linear-gradient(to right, blueviolet,rgb(78, 118, 192));
     padding: 50px;
+}
+.one{
+    width: 50%;
+}
+.two{
+    width: 60%;
+}
+.three{
+    width: 70%;
+}
+.four{
+ width: 80%;
 }

@@ -14,8 +14,9 @@ const RightContent = () => {
        <Navigation />
        <About />
        <Projects />
-       <Experience />
        <Education />
+       <Experience />
+       
     </div>
   );
 }
