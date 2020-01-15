@@ -2,26 +2,27 @@
 import React from 'react';
 
 import './About.css';
-import Information from '../Navigation/Information/Information';
+
 const About = () => {
   return (
     <div class="about">
-        <h2>About Me</h2>
+        
       <div className="about-data">
-        <div className="about-info">
-        </div>
-        <div className="about-desc">
-        <p>
+       <div className="about-info">
+         <h2>About Me</h2>
+         <img class="img-circle" src="./images/profile_pic.jpg" alt="portrait" width="300px"></img>
+        
+       </div>
+      <div className="about-desc">
+      <p>
           I am a Senior Software Developer with over 5 years of experience developing software with high standards and interacting 
           with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. 
           I am a self-starter with a proven ability to leverage multiple technologies to build interactive and innovative applications.
           I have a Bachelor's Degree in Computer Science and work with technologies such as Ruby, Ruby on Rails, Javascript, React, HTML5, CSS3, BOOTSTRAP, GIT,   
        </p>
-       
-        
-        </div>
-        
+    
       </div>
+     </div>
     </div>
   );
 }

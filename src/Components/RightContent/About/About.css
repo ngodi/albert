@@ -1,25 +1,27 @@
 .about{
-    margin: 100px auto;
+    margin: 250px auto 150px auto;
     min-height: 400px;
-    line-height: 40px;
-    font-size: 16px;
+    line-height: 30px;
     padding-top: 30px;
-
+    width: 1000px;
+    background: linear-gradient(to right, blueviolet,rgb(78, 118, 192));
+    padding: 20px;
 }
 
 .about p{
     text-align: justify;
     font-family:'Courier New', Courier, monospace;
-    color: gray;
+    color: white;
    
 }
 .about h2{
     margin-bottom: 30px;
+    color: white;
 }
 .about-data{
     display: flex;
     justify-content: space-between;
 }
 .about-desc{
-   margin-left: 50px;
+   margin: 100px 0 0 50px ;
 }

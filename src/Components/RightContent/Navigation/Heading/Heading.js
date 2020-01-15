@@ -6,6 +6,7 @@ const Heading = () => {
     <div class="heading">
       <h1>Ngodi Albert</h1>
       <span>Full-stack Developer</span>
+      <p><i class="fas fa-graduation-cap"></i>Bachelor in Computer Science</p>
    </div>
   );
 }
