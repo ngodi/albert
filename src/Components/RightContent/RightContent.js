@@ -10,10 +10,11 @@ import Navigation from './Navigation/Navigation';
 const RightContent = () => {
 
   return (
-    <div class="rightcontent">
+    <div class="rightcontent"  id="about">
        <Navigation />
        <About />
        <Projects />
+
        <Education />
        <Experience />
        

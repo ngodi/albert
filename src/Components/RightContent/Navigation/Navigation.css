@@ -20,5 +20,19 @@
     justify-content: space-between;
 }
 nav{
-    margin-top:20px;
+    margin-top:40px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: green;
+}
+nav a:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+}
+nav a:active{
+    color:blueviolet;
+    text-decoration: underline;
 }

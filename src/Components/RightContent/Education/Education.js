@@ -29,7 +29,7 @@ const Education = () => {
                 <span className = "period">From June 2005 - November 2008 </span>
             </div>
        </div>
-      
+      <div id="experience"></div>
     </div>
   );
 }

@@ -28,6 +28,7 @@ const Projects = () => {
        <div className="projects-list">
        {projects}
        </div>
+       <div id="education"></div>
     </div>
   );
 }

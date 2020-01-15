@@ -23,6 +23,7 @@ const About = () => {
     
       </div>
      </div>
+     <div id="projects"></div>
     </div>
   );
 }

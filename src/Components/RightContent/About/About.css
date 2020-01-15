@@ -1,12 +1,20 @@
 .about{
-    margin: 250px auto 150px auto;
+    margin: 300px auto 150px auto;
     min-height: 400px;
     line-height: 30px;
     padding-top: 30px;
     width: 1000px;
     background: linear-gradient(to right, blueviolet,rgb(78, 118, 192));
     padding: 20px;
+    animation-name: pageload;
+    animation-duration: 2s;
+
 }
+
+@keyframes pageload {
+    from {transform: translateY(5px);}
+    to {transform: translateY(30px);}
+  }
 
 .about p{
     text-align: justify;

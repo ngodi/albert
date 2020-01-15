@@ -6,7 +6,7 @@ import Social from './Social/Social';
 
 const Navigation = () => {
   return (
-    <div class="navigation">
+    <div class="navigation" >
         
       <Heading />
       <Social />
@@ -18,11 +18,11 @@ const Navigation = () => {
         <span><i class="fas fa-envelope"></i> albertngodi@gmail.com</span>
       </div>
       <nav>
-        <span>About Me</span>
-        <span>Projects</span>
-        <span>Education</span>
-        <span>Experience</span>
-        <span>Publications</span>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
         </nav>
       </div>
     </div>
