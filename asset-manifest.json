@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/albert/static/css/main.ec2dd13a.chunk.css",
+    "main.js": "/albert/static/js/main.f6ff9d4c.chunk.js",
+    "main.js.map": "/albert/static/js/main.f6ff9d4c.chunk.js.map",
+    "runtime-main.js": "/albert/static/js/runtime-main.27aaa51f.js",
+    "runtime-main.js.map": "/albert/static/js/runtime-main.27aaa51f.js.map",
+    "static/js/2.e14c0352.chunk.js": "/albert/static/js/2.e14c0352.chunk.js",
+    "static/js/2.e14c0352.chunk.js.map": "/albert/static/js/2.e14c0352.chunk.js.map",
+    "index.html": "/albert/index.html",
+    "precache-manifest.041e532c8ccf04a4f828a6522e00a8dc.js": "/albert/precache-manifest.041e532c8ccf04a4f828a6522e00a8dc.js",
+    "service-worker.js": "/albert/service-worker.js",
+    "static/css/main.ec2dd13a.chunk.css.map": "/albert/static/css/main.ec2dd13a.chunk.css.map",
+    "static/js/2.e14c0352.chunk.js.LICENSE": "/albert/static/js/2.e14c0352.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27aaa51f.js",
+    "static/js/2.e14c0352.chunk.js",
+    "static/css/main.ec2dd13a.chunk.css",
+    "static/js/main.f6ff9d4c.chunk.js"
+  ]
+}
