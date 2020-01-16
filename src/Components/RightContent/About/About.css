@@ -6,11 +6,12 @@
     width: 1000px;
     background: linear-gradient(to right, blueviolet,rgb(78, 118, 192));
     padding: 20px;
-    animation-name: pageload;
-    animation-duration: 2s;
 
 }
-
+.about:focus{
+    animation-name: pageload;
+    animation-duration: 2s;
+}
 @keyframes pageload {
     from {transform: translateY(5px);}
     to {transform: translateY(30px);}
