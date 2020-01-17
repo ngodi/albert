@@ -34,3 +34,11 @@
 .about-desc{
    margin: 100px 0 0 50px ;
 }
+@media only screen and (max-width: 1024px) {
+    .about-data {
+      flex-direction: column;
+    }
+    .about{
+        width:90%;
+    }
+  }
