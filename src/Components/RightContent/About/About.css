@@ -1,38 +1,37 @@
 .about{
-    margin: 300px auto 150px auto;
-    min-height: 400px;
-    line-height: 30px;
-    padding-top: 30px;
-    width: 1000px;
-    background: linear-gradient(to right, blueviolet,rgb(78, 118, 192));
-    padding: 20px;
+    margin: 200px auto 100px auto;
+    animation-name: pageload;
+    animation-duration: 1s;
 
 }
-.about:focus{
-    animation-name: pageload;
-    animation-duration: 2s;
-}
+
 @keyframes pageload {
-    from {transform: translateY(5px);}
-    to {transform: translateY(30px);}
+    from {transform: translateY(-300px);}
+    to {transform: translateY(20px);}
   }
 
 .about p{
     text-align: justify;
     font-family:'Courier New', Courier, monospace;
-    color: white;
+    color: #33363b;
    
 }
 .about h2{
     margin-bottom: 30px;
-    color: white;
+    color: #368cbf;
 }
 .about-data{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
 }
 .about-desc{
    margin: 100px 0 0 50px ;
+   background: #eaeaea;
+   border-radius: 50%;
+   width: 800px;
+   padding: 90px;
 }
 @media only screen and (max-width: 1024px) {
     .about-data {

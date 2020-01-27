@@ -4,7 +4,7 @@
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color:white;
-    background: linear-gradient(to right, blueviolet,rgb(78, 118, 192));
+    background: #368cbf;
     border: 1px solid blueviolet;
     display: flex;
     flex-direction: column;

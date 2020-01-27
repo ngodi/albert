@@ -9,11 +9,10 @@ const About = () => {
         
       <div className="about-data">
        <div className="about-info">
-         <h2>About Me</h2>
-         <img class="img-circle" src="./images/profile_pic.jpg" alt="portrait" width="300px"></img>
-        
+       <img className="img-rounded" src="./images/profile_pic.jpg" alt="portrait" width="400px"></img>
        </div>
       <div className="about-desc">
+      <h2>About Me</h2>
       <p>
           I am a Senior Software Developer with over 5 years of experience developing software with high standards and interacting 
           with multiple stakeholders from technical and non-technical backgrounds, ensuring clarity, quality, and continuous delivery. 

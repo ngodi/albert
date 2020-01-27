@@ -2,7 +2,7 @@
 import React from 'react';
 
 import { experienceList } from './experienceData';
-import './Experience.css';
+import './Experience.scss';
 
 const Experience = () => {
     const experience = experienceList.map(exp => {

@@ -1,3 +1,9 @@
 .heading{
-    color:blueviolet;
+    color:#7ebc59;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-img{
+    margin-right: 10px;
 }
