@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/albert/static/css/main.e535a56e.chunk.css",
-    "main.js": "/albert/static/js/main.75b52c0c.chunk.js",
-    "main.js.map": "/albert/static/js/main.75b52c0c.chunk.js.map",
+    "main.css": "/albert/static/css/main.9cde3fa3.chunk.css",
+    "main.js": "/albert/static/js/main.b7aa7079.chunk.js",
+    "main.js.map": "/albert/static/js/main.b7aa7079.chunk.js.map",
     "runtime-main.js": "/albert/static/js/runtime-main.27aaa51f.js",
     "runtime-main.js.map": "/albert/static/js/runtime-main.27aaa51f.js.map",
     "static/js/2.e14c0352.chunk.js": "/albert/static/js/2.e14c0352.chunk.js",
     "static/js/2.e14c0352.chunk.js.map": "/albert/static/js/2.e14c0352.chunk.js.map",
     "index.html": "/albert/index.html",
-    "precache-manifest.97fbc6495753df0b860151719e20dbf1.js": "/albert/precache-manifest.97fbc6495753df0b860151719e20dbf1.js",
+    "precache-manifest.0df434d222e1049e04d1a7d38da43362.js": "/albert/precache-manifest.0df434d222e1049e04d1a7d38da43362.js",
     "service-worker.js": "/albert/service-worker.js",
-    "static/css/main.e535a56e.chunk.css.map": "/albert/static/css/main.e535a56e.chunk.css.map",
+    "static/css/main.9cde3fa3.chunk.css.map": "/albert/static/css/main.9cde3fa3.chunk.css.map",
     "static/js/2.e14c0352.chunk.js.LICENSE": "/albert/static/js/2.e14c0352.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.27aaa51f.js",
     "static/js/2.e14c0352.chunk.js",
-    "static/css/main.e535a56e.chunk.css",
-    "static/js/main.75b52c0c.chunk.js"
+    "static/css/main.9cde3fa3.chunk.css",
+    "static/js/main.b7aa7079.chunk.js"
   ]
 }
