@@ -9,7 +9,7 @@ const About = () => {
         
       <div className="about-data">
        <div className="about-info">
-       <img className="img-rounded" src="./images/profile_pic.jpg" alt="portrait" width="400px"></img>
+       <img className="img-circle" src="./images/profile_pic.jpg" alt="portrait" width="400px"></img>
        </div>
       <div className="about-desc">
       <h2>About Me</h2>
