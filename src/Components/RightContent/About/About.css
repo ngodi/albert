@@ -25,9 +25,6 @@
 .about-data{
     display: flex;
     justify-content: center;
-    background-color: #368cbf;
-    border-radius: 10px;
-
 }
 .about-desc{
    border-radius: 10px;

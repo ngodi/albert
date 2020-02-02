@@ -2,17 +2,11 @@
     margin-left: 10px;
 }
 .navigation{
-    position: fixed;
-    background: #368cbf;
-    z-index: 10;
-    padding: 30px;
-    width: 90%;
+    width: 100%;
     color: #33363b;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -20px;
-    box-shadow: 2px 4px 4px lightgray;
 }
 .right-nav{
     display: flex;

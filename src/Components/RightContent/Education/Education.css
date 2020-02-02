@@ -1,11 +1,10 @@
 .academic{
     width: 500px;
-    margin: 10px auto;
+    margin: 40px auto;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
-    color:white;
-    background: #368cbf;
-    border: 1px solid blueviolet;
+    color:#279AF1;
+    background: white;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
