@@ -1,36 +1,32 @@
 .academic{
-    width: 500px;
+    width: 50vw;
     margin: 40px auto;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
-    color:#279AF1;
     background: white;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    padding: 10px;
+    padding-bottom: 10px;
 }
-.degree, .school{
-    padding: 0 10px;
+.degree{
+    background: lightgray;
+    padding: 5px;
+    color: black;
+
 }
 .period{
     padding-left: 10px;
+   color:rgb(31, 44, 230);
+}
+.school{
+    padding: 10px;
+   color: #289AF1;
+   font-weight: bold;
 }
 .education{
     margin: 100px auto 0 auto;
 }
 .academic-list{
     padding: 50px;
-}
-.one{
-    width: 50%;
-}
-.two{
-    width: 60%;
-}
-.three{
-    width: 70%;
-}
-.four{
- width: 80%;
 }

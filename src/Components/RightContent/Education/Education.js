@@ -6,30 +6,30 @@ import './Education.css';
 const Education = () => {
   return (
     <div class="education">
+      <div id="education"></div>
         <h2><i class="fas fa-graduation-cap"></i> Education</h2>
        <div className="academic-list">
-       <div className="academic one">
+       <div className="academic">
                 <span className = "degree">Bachelor of Science Degree in Computer science Major</span>
                 <span className = "school">University of Buea, Cameroon</span>
                 <span className = "period"> October 2014 - November 2017 </span>
             </div>
-       <div className="academic two">
+       <div className="academic">
                 <span className = "degree">FullStack Web Development Certificate</span>
                 <span className = "school">Microverse Remote Software Development School</span>
                 <span className = "period">May 2019 - January 2020 </span>
             </div>
-            <div className="academic three">
+            <div className="academic">
                 <span className = "degree">CISCO CERTIFIED NETWORK PROFESSIONAL, CCNA,CCNP(CSCO12205364)</span>
                 <span className = "school">CISCO Network Academy</span>
                 <span className = "period">June 2010 - August 2012 </span>
             </div>
-            <div className="academic four">
+            <div className="academic">
                 <span className = "degree">Information Technology and Systems Administration</span>
                 <span className = "school">SIS Technologies, Douala, Cameroon</span>
                 <span className = "period">From June 2005 - November 2008 </span>
             </div>
        </div>
-      <div id="experience"></div>
     </div>
   );
 }

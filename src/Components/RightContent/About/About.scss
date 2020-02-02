@@ -1,9 +1,8 @@
 .about{
-    margin: 200px auto 100px auto;
+    margin: 100px auto 100px auto;
     animation-name: pageload;
     animation-duration: 1s;
-    width: 70%;
-
+    width: 80%;
 }
 
 @keyframes pageload {
@@ -27,8 +26,7 @@
     justify-content: center;
 }
 .about-desc{
-   border-radius: 10px;
-   width: 600px;
+   width: 60vw;
    padding:10px;
 }
 @media only screen and (max-width: 1024px) {
@@ -37,5 +35,8 @@
     }
     .about{
         width:90%;
+    }
+    .about-desc{
+        margin: 0 auto;
     }
   }

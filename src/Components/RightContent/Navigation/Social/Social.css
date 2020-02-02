@@ -2,3 +2,11 @@
     color: #eaeaea;
     margin-right: 10px;
 }
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social h4{
+    margin-right: 20px;
+}
