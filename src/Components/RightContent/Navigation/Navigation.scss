@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 30px;
     
     .contact i{
         color: white;
@@ -25,7 +25,7 @@ nav{
     flex-direction: column;
     position: fixed;
     text-align: left;
-    left: 20px;
+    left: 40px;
     top: 40%;
     z-index: 10;
 }
@@ -40,7 +40,7 @@ nav{
 nav a{
     text-decoration: none;
     color: #eaeaea;
-    background: transparent;
+    background: #289AF1;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
