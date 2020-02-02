@@ -11,13 +11,10 @@
 }
 .degree{
     background: lightgray;
-    padding: 5px;
-    color: black;
-
-}
+    padding: 15px;
+ }
 .period{
     padding-left: 10px;
-   color:rgb(31, 44, 230);
 }
 .school{
     padding: 10px;
