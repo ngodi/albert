@@ -29,6 +29,14 @@ nav{
     top: 40%;
     z-index: 10;
 }
+.bar-menu{
+    position: fixed;
+   color: white;
+    left: 20px;
+    top: 40%;
+    z-index: 10;
+    display: none;
+}
 nav a{
     text-decoration: none;
     color: #eaeaea;

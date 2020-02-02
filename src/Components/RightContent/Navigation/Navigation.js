@@ -24,7 +24,11 @@ const Navigation = () => {
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
         </nav>
+        <div className="bar-menu">
+        <i class="fas fa-3x fa-bars"></i>
+        </div>
       </div>
+
     </div>
   );
 }
