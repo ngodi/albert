@@ -8,6 +8,7 @@ const Heading = () => {
       <h1>Ngodi Albert</h1>
       <span>Frontend Developer</span>
       <p><i class="fas fa-graduation-cap"></i>Bachelor in Computer Science</p>
+      <p>Former Network Engineer</p>
       </div>
    </div>
   );
