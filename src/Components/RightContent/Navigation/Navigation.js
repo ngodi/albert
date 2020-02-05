@@ -8,7 +8,7 @@ import Skills from './Skills/Skills';
 const Navigation = () => {
   return (
     <div class="navigation" >
-        
+         <img className="img-circle" src="./images/profile_pic.jpg" alt="portrait" width="300px"></img>
       <Heading />
       <div className="right-nav">
       <Social />
