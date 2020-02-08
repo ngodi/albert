@@ -1,14 +1,24 @@
 import React from 'react';
-import './Heading.css';
+
+import './Heading.scss';
+
+import Social from '../Social/Social';
 
 const Heading = () => {
   return (
     <div class="heading">
       <div className="heading-data">
-      <h1>Ngodi Albert</h1>
-      <span>Frontend Developer</span>
-      <p><i class="fas fa-graduation-cap"></i>Bachelor in Computer Science</p>
-      <p>Former Network Engineer</p>
+      <span>I am <br />Ngodi Albert</span>
+      <p>Frontend Developer<br />
+       Bachelors degree in Computer Science<br />
+     Former Network Engineer</p>
+      </div>
+      <p className="skills">I work with Javascript, Reactjs, Redux, HTML/CSS,  Bootstrap</p>
+
+      <Social />
+      <div className="contact">
+        <span><i class="fas fa-2x fa-mobile-alt"></i> +237 672378393</span>
+        <span><i class="fas fa-2x fa-envelope"></i> albertngodi@gmail.com</span>
       </div>
    </div>
   );

@@ -1,0 +1,29 @@
+.heading{
+    color:white;
+    
+    background: transparent;
+
+    span{
+        font-size: 5vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+ p{
+     font-size: 1.5vw;
+     font-style: italic;
+     font-family:Georgia, 'Times New Roman', Times, serif
+ }
+ .skills{
+  color: yellowgreen;
+ }
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span{
+        margin:10px;
+        font-size: 1vw;
+    }
+}
