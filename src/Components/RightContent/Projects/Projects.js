@@ -11,7 +11,7 @@ const Projects = () => {
            <img src = {project.preview} alt="Preview" width = "100%"/>
             <div className="project-content">
               <h3>{project.title}</h3>
-              <p className = "tech">Utilized:{project.tech.map(tec => 
+              <p className = "tech">{project.tech.map(tec => 
                   <span className="tec">{tec}</span>
               )}</p>
               <div className = "links">
