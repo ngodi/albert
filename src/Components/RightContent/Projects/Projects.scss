@@ -38,7 +38,7 @@
 
 .links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .links a{
     padding: 3px;
@@ -54,7 +54,7 @@
 }
 .tech{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
