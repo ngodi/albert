@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+
+}
+h2{
+  color:#F7F7FF;
+
+}
+nav{
+  position: fixed;
+  z-index: 10;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
