@@ -8,7 +8,7 @@ const Heading = () => {
   return (
     <div class="heading">
       <div className="heading-data">
-      <span>I am <br />Ngodi Albert</span>
+      <span>Ngodi Albert</span>
       <p>Frontend Developer<br />
        Bachelors degree in Computer Science<br />
      Former Network Engineer</p>
