@@ -5,6 +5,7 @@ import './NavMenu.scss';
 const NavMenu = () => {
   return (
     <div class="navmenu">
+        <i className="fas fa-3x fa-bars"></i>
        <nav>
             <a href="#about">About Me</a>
             <a href="#projects">Projects</a>
