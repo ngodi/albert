@@ -16,7 +16,11 @@ const MainContent = () => {
        <Projects />
        <Experience />
        <Education />
-     
+        <div className="footer">
+          <p>Quick Contact form</p>
+          <p>Publications</p>
+          <p>Social links</p>
+        </div>
       
     </div>
   );

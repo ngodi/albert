@@ -3,3 +3,12 @@
     scroll-behavior: smooth;
     margin: 2vw;
 }
+
+.footer{
+    height: 300px;
+    padding: 50px;
+    background: rgba(8, 3, 3, 0.795);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}

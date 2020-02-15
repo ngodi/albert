@@ -18,14 +18,19 @@
     padding: 50px;
     width: 600px;
     text-align: left;
+    transform: skewY(2deg);
 
 }
 .experience{
+    background: lightgreen;
+    padding: 70px 0;
+    transform: skewY(-3deg);
   
     margin: 0 auto;
 
     h2{
         color: blue;
+        transform: skewY(2deg);
     }
 }
 
