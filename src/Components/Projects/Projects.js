@@ -8,9 +8,9 @@ const Projects = () => {
  const projects = projectList.map(project => {
      return (
          <div class = "project">
-           <img src = {project.preview} alt="Preview" width = "100%"/>
             <div className="project-content">
               <h3>{project.title}</h3>
+              <p>{project.desc}</p>
               <p className = "tech">{project.tech.map(tec => 
                   <span className="tec">{tec}</span>
               )}</p>
@@ -18,7 +18,10 @@ const Projects = () => {
               <a target = "_blank" href = {project.code} >View code</a>
                 <a target = "_blank" href = {project.demo} >Live Preview</a>
               </div>
-            </div>           
+            </div>
+            <div className="image-div">
+             <img src = {project.preview} alt="Preview" width = "100%"/>
+            </div>          
          </div>
      )
  })

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
 
-import RightContent from './Components/RightContent/RightContent';
+import MainContent from './Components/MainContent/MainContent';
 
 function App() {
   return (
     <div className="App">
-        <RightContent />
+        <MainContent />
      </div>
   );
 }
