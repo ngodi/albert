@@ -1,5 +1,5 @@
 .academic{
-    width: 50vw;
+    width: 400px;
     margin: 40px auto;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
@@ -8,6 +8,7 @@
     flex-direction: column;
     border-radius: 5px;
     padding-bottom: 10px;
+    border: 2px solid lightgray;
 }
 .degree{
     background: lightgray;
@@ -24,6 +25,13 @@
 .education{
     margin: 100px auto 0 auto;
 }
+
+.education h2{
+color: blue;
+}
 .academic-list{
     padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }

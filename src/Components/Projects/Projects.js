@@ -11,16 +11,17 @@ const Projects = () => {
             <div className="project-content">
               <h3>{project.title}</h3>
               <p>{project.desc}</p>
-              <p className = "tech">{project.tech.map(tec => 
+              <div className = "tech">{project.tech.map(tec => 
                   <span className="tec">{tec}</span>
-              )}</p>
-              <div className = "links">
-              <a target = "_blank" href = {project.code} >View code</a>
-                <a target = "_blank" href = {project.demo} >Live Preview</a>
-              </div>
+              )}</div>
+          
             </div>
             <div className="image-div">
              <img src = {project.preview} alt="Preview" width = "100%"/>
+             <div className = "links">
+              <a target = "_blank" href = {project.code} ><i class="fab fa-github"></i>&nbsp;View code</a>
+                <a target = "_blank" href = {project.demo} ><i class="fas fa-external-link-alt"></i>&nbsp;View Demo</a>
+              </div>
             </div>          
          </div>
      )

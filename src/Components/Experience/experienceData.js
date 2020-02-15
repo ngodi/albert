@@ -11,8 +11,7 @@ export const experienceList = [
         job:"Network Administrator",
         company: "Ringo S.A",
         period: "From July 2007 - October 2013",
-        description: [ 
-                    "Configured, maintained and performed upgrades on corporate customer’s networks and servers; improving throughput and connectivity.",
+        description: ["Configured, maintained and performed upgrades on corporate customer’s networks and servers; improving ",
                     "Monitored network performance (availability, utilization, throughput, goodput, and latency) and test for weaknesses.",
                     "Resolved problems reported by end-user."
                   ]

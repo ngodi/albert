@@ -24,7 +24,9 @@ const Experience = () => {
   return (
     <div class="experience">
         <h2><i class="fas fa-briefcase"></i> Experience</h2>
-       { experience }
+      <div className="experience-list">
+      { experience }
+      </div>
     </div>
   );
 }

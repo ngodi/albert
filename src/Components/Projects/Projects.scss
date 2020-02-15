@@ -1,14 +1,22 @@
 .project {
-    width: 90vw;
-    margin: 0 auto;
+    width: 60vw;
+    margin: 100px auto;
     display:flex;
-    justify-content:space-between;
-    border-bottom: 2px solid skyblue;
-    padding: 100px 0;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid skyblue;
+    padding: 10px 0;
+    align-items: center;
+    box-shadow: 5px 5px 5px lightgray;
+    background: linear-gradient(to right, lightblue, rgb(12, 117, 158));
+    border-radius: 10px;
 }
-.image-div:hover{
-    transform: scale(1.1);
-    transition: 1s;
+.image-div{
+    img:hover{
+        transform: scale(1.02);
+        transition: 1s;
+    }
+ 
 }
 .projects{
     margin: 0 auto;
@@ -22,7 +30,7 @@
 
 .links{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
 }
 .links a{
     padding: 3px;
@@ -38,29 +46,22 @@
 }
 
 .project-content h3{
-    background: linear-gradient(to right, blue, skyblue);
-    width: fit-content;
     color: white;
-    padding: 5px;
 }
 .project-content{
 
     p{
-        background: rgba(0, 153, 255, 0.637);
-        text-align: left;
-        padding: 5px;
+        text-align: justify;
         
     }
 
-    .tech{
-        display: flex;
-        justify-content:flex-start;
-        flex-wrap: wrap;
-        width: fit-content;
-        background: none;
+}
 
-      
-    }
+.tech{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: fit-content;
 }
 
 .project img{
@@ -78,7 +79,7 @@
 }
 
 .tec{
-    margin-right: 5px;
+    margin: 5px 5px 5px 0;
     background: lightgreen;
     padding: 5px;
     color: blue;
