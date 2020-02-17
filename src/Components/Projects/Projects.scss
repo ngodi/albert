@@ -1,16 +1,21 @@
 .project {
-    width: 90vw;
-    height: 40vh;
+    width: 70vw;
+    min-width: 450px;
     margin: 100px auto;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    align-items: flex-start;
     flex-wrap: wrap;
-    align-items: space-between;
-    flex-direction: row-reverse;
 }
 .image-div{
-    background: white;
-    width: 350px;
+    box-shadow: 4px 4px 4px 4px lightgray;
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    min-width: 450px;
     margin: 0 auto;
     img:hover{
         transform: scale(1.02);
@@ -18,10 +23,17 @@
     }
  
 }
-.projects{
+
+.divider{
+    border-top: 2px solid lightgreen;
+    width:30vw;
     margin: 0 auto;
+}
+.projects{
+    margin: -50px auto;
     padding: 100px 0;
     width: 100%;
+    background: rgba(219, 219, 219, 0.185);
 
     h2{
         color:#289AF1;
@@ -31,6 +43,7 @@
 .links{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 .links a{
     padding: 3px;
@@ -45,19 +58,19 @@
     
 }
 
-.project-content h3{
-    color: white;
-}
 .project-content{
-    background: linear-gradient(to right, lightblue, rgb(12, 117, 158));
-    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
-    min-width: 600px;
-    padding: 50px;
+    width: 30vw;
+    min-width: 450px;
 
 
     p{
         text-align: justify;
         
+    }
+
+    h3{
+        background:rgba(26, 111, 207, 0.705);
+        padding: 10px;
     }
 
 }
@@ -71,11 +84,6 @@
 
 .project img{
     height: 80%;
-}
-
-
-.project-content{
-    width:700px;
 }
 
 .tec{
