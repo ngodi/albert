@@ -13,12 +13,12 @@
 .experienceItem {
     font-family:'Courier New', Courier, monospace;
     margin: 40px auto;
-    border-bottom: 1px solid white;
+    box-shadow: 4px 4px 4px gray;
     background:rgba(26, 111, 207, 0.705);
     padding: 50px;
     width: 600px;
     text-align: left;
-    transform: skewY(2deg);
+    transform: skewY(1deg);
 
 }
 .experience{
@@ -30,7 +30,7 @@
 
     h2{
         color: blue;
-        transform: skewY(2deg);
+        transform: skewY(3deg);
     }
 }
 

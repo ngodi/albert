@@ -17,7 +17,7 @@ const Projects = () => {
           
             </div>
             <div className="image-div">
-             <img src = {project.preview} alt="Preview" width = "100%"/>
+             <img src = {project.preview} alt="Preview" width = "100%" />
              <div className = "links">
               <a target = "_blank" href = {project.code} ><i class="fab fa-github"></i>&nbsp;View code</a>
                 <a target = "_blank" href = {project.demo} ><i class="fas fa-external-link-alt"></i>&nbsp;View Demo</a>

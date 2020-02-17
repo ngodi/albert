@@ -1,17 +1,17 @@
 .project {
-    width: 60vw;
+    width: 90vw;
+    height: 40vh;
     margin: 100px auto;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     flex-wrap: wrap;
-    border: 2px solid skyblue;
-    padding: 10px 0;
-    align-items: center;
-    box-shadow: 5px 5px 5px lightgray;
-    background: linear-gradient(to right, lightblue, rgb(12, 117, 158));
-    border-radius: 10px;
+    align-items: space-between;
+    flex-direction: row-reverse;
 }
 .image-div{
+    background: white;
+    width: 350px;
+    margin: 0 auto;
     img:hover{
         transform: scale(1.02);
         transition: 1s;
@@ -49,6 +49,11 @@
     color: white;
 }
 .project-content{
+    background: linear-gradient(to right, lightblue, rgb(12, 117, 158));
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    min-width: 600px;
+    padding: 50px;
+
 
     p{
         text-align: justify;
@@ -65,17 +70,12 @@
 }
 
 .project img{
-    height: 100%;
-    padding: 10px;
+    height: 80%;
 }
 
-
-.image-div{
-    width: 400px;
-}
 
 .project-content{
-    width:500px;
+    width:700px;
 }
 
 .tec{

@@ -5,6 +5,7 @@
     padding: 3vw 5vw;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.281)),
         url(/images/background.jpeg);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;

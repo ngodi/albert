@@ -1,6 +1,7 @@
 .academic{
     width: 400px;
-    margin:0;
+    height: 150px;
+    margin:10px;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     background: white;
@@ -8,23 +9,27 @@
     flex-direction: column;
     border-radius: 5px;
     padding-bottom: 10px;
-    border: 1px solid gray;
+    box-shadow: 4px 4px 4px gray;
+    transform:skewY(-5deg);
 }
 .degree{
-    background: lightgray;
+    background: lightgreen;
     padding: 15px;
+    transform:skewY(5deg);
  }
 .period{
     padding-left: 10px;
+    transform:skewY(5deg);
 }
 .school{
     padding: 10px;
    color: #289AF1;
    font-weight: bold;
+   transform:skewY(5deg);
 }
 .education{
     margin: -70px auto 0 auto;
-    padding: 100px 0;
+    padding: 200px 0;
     background-image: url(https://images.pexels.com/photos/301943/pexels-photo-301943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,6 +45,7 @@ color: blue;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 950px;
 }
