@@ -19,10 +19,10 @@ export const projectList = [
     },
     {
     type: "front",
-    title: "Jquery Drawing app",
-    preview: "./images/jdraw.png",
+    title: "K-Orsi Furniture",
+    preview: "./images/k_orsi_shop.png",
     desc:"   Utilized React to develop the frontend of  ‘K-ORSI SHOP’, an e-commerce website. Built project from conception,  implementation to deployment.",
-    tech: ['HTML5', 'CSS3', 'BOOTSTRAP', 'JAVASCRIPT', 'JQUERY UI'],
+    tech: ['HTML', 'CSS', 'REACT.JS', 'JAVASCRIPT'],
     code: "https://github.com/ngodi/JQuery_Drawing_App",
     demo: "https://drawing-app.netlify.com/"
     }
