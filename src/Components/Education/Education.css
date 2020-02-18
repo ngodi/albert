@@ -49,3 +49,18 @@ color: blue;
     align-items: flex-start;
     max-width: 950px;
 }
+
+@media only screen and (max-width: 600px) {
+    .academic, .education{
+      width: 100%;
+      min-width: 300px;
+      margin: 10px auto;
+    }
+    .education{
+        padding: 5px;
+    }
+    .academic-list{
+        padding: 50px 0;
+    }
+
+  }

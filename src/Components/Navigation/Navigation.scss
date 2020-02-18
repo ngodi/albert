@@ -14,3 +14,10 @@
 
 }
 
+
+@media only screen and (max-width: 600px) {
+    .navigation{
+      width: 100%;
+      min-width: 300px
+    }
+  }

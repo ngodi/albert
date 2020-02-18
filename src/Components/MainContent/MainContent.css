@@ -1,7 +1,7 @@
 .maincontent {
     width: 98%;
     scroll-behavior: smooth;
-    margin: 2vw;
+    margin: 20px auto;
 }
 
 .footer{
@@ -10,5 +10,19 @@
     background: rgba(8, 3, 3, 0.795);
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 600px) {
+    .maincontent{
+      width: 100%;
+      margin: 0;
+      min-width: 300px;
+    }
+   .footer{
+       margin-top: -10px;
+       flex-direction: column;
+   }
+
+  }

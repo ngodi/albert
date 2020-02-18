@@ -41,6 +41,19 @@
 
 @media only screen and (max-width: 1024px) {
     .experienceItem {
-      width: 70vw;
+      width: 90vw;
     }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .experienceItem, .experience{
+      width: 100%;
+      min-width: 300px;
+      margin: 10px auto;
+      padding: 20px;
+    }
+    .experience{
+        padding: 5px;
+    }
+
   }
