@@ -1,12 +1,12 @@
 export const projectList = [
     {
     type: "front",
-    title: "Newsweek Magazine Clone",
-    preview: "./images/newsweek.png",
-    desc:"  Utilized HTML, CSS and BOOTSTRAP to develop a clone of the Newsweek magazine website as part of my ‘Microverse’ training in responsive design.",
-    tech: ['HTML5', 'CSS3', 'BOOTSTRAP'],
-    code: "https://github.com/ngodi/NEWSWEEK",
-    demo: "https://raw.githack.com/ngodi/NEWSWEEK/development/index.html"
+    title: "BATTLESHIP",
+    preview: "./images/battleship.png",
+    desc:"Battleship is a game played on the browser between a user and the computer. The game ends when all the ships on a given gameboard have all been hit; they are said to be sunk, the opponent is then declared winner.",
+    tech: ['HTML', 'CSS', 'JAVASCRIPT', 'JEST'],
+    code: "https://github.com/ngodi/battleship-game",
+    demo: "https://battleship-js.netlify.com/"
     },
     {
     type: "full",
