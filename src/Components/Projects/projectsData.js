@@ -18,11 +18,11 @@ export const projectList = [
     demo: "https://intense-refuge-98385.herokuapp.com/"
     },
     {
-    type: "front",
-    title: "K-Orsi Furniture",
-    preview: "./images/k_orsi_shop.png",
-    desc:"   Utilized React to develop the frontend of  ‘K-ORSI SHOP’, an e-commerce website. Built project from conception,  implementation to deployment.",
-    tech: ['HTML', 'CSS', 'REACT.JS', 'JAVASCRIPT'],
+    type: "full",
+    title: "BookTracker CMS",
+    preview: "./images/booktracker.png",
+    desc:" BookTracker CMS is used to store and keep track of books read by a particular user. This enables the user to easily visualise all the books read as well as the content covered and current chapter being read.",
+    tech: ['REDUX', 'REACT.JS'],
     code: "https://github.com/ngodi/k-orsi-shop",
     demo: "https://korsi.netlify.com"
     }
