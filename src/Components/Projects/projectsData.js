@@ -23,8 +23,8 @@ export const projectList = [
     preview: "./images/booktracker.png",
     desc:" BookTracker CMS is used to store and keep track of books read by a particular user. This enables the user to easily visualise all the books read as well as the content covered and current chapter being read.",
     tech: ['REDUX', 'REACT.JS'],
-    code: "https://github.com/ngodi/k-orsi-shop",
-    demo: "https://korsi.netlify.com"
+    code: "https://github.com/ngodi/redux-bookstore",
+    demo: "https://booktracker.netlify.com/"
     }
 ];
 
