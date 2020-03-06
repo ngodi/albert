@@ -4,7 +4,7 @@ import './MainContent.css';
 import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Education from '../Education/Education';
-import Navigation from '../Navigation/Navigation';
+import Header from '../Header/Header';
 import NavMenu from '../NavMenu/NavMenu';
 
 const MainContent = () => {
@@ -12,7 +12,7 @@ const MainContent = () => {
   return (
     <div class="maincontent"  id="about">
        <NavMenu />
-       <Navigation />
+       <Header />
        <Projects />
        <Experience />
        <Education />

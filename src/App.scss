@@ -1,9 +1,11 @@
+@import '../public/styles/main';
+
 .App {
   display: flex;
-  text-align: center;
   margin: 0 auto;
   width: 100%;
   min-width: 300px;
+  background: linear-gradient(to right,rgba(115, 123, 140, 0.6),rgba(115, 123, 140, 0.6));
 }
 h2{
   color:#F7F7FF;

@@ -1,13 +1,17 @@
 nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
     position: fixed;
-    padding-right: 2vw ;
     top: 0;
+    left: 0;
+   
+    
     z-index: 10;
-    background: white;
+    background: #AAAFBA;
+    box-shadow: 2px 2px 2px gray;
+    border-bottom: 1px solid gray;
 }
 
 .fa-bars{
@@ -17,7 +21,7 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: rgb(22, 169, 214);
+    color: yellowgreen;
     font-weight: bold;
     margin: 1vw;
     padding: 0.6vw;
@@ -26,6 +30,7 @@ nav a{
 nav a:hover{
     transform: scale(1.1);
     text-decoration: none;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {

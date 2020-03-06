@@ -1,12 +1,11 @@
 import React from 'react';
-import './Navigation.scss';
+import './Header.scss';
 
 import Heading from './Heading/Heading';
 
-const Navigation = () => {
+const Header = () => {
   return (
     <div class="navigation" >
-      
       <Heading />
     
      
@@ -15,4 +14,4 @@ const Navigation = () => {
   );
 }
 
-export default Navigation;
+export default Header;
