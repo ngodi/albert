@@ -8,7 +8,7 @@ export const experienceList = [
                   ]
     },
     {
-        job:"Network Administrator",
+        job:"Web Developer",
         company: "Ringo S.A",
         period: "From July 2007 - October 2013",
         description: ["Configured, maintained and performed upgrades on corporate customer’s networks and servers; improving ",

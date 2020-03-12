@@ -25,7 +25,8 @@ const Experience = () => {
     <div class="experience">
         <h2><i class="fas fa-briefcase"></i> Experience</h2>
       <div className="experience-list">
-      { experience }
+      { //experience 
+      }
       </div>
     </div>
   );
