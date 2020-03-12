@@ -14,8 +14,9 @@ const MainContent = () => {
        <NavMenu />
        <Header />
        <Projects />
-       <Experience />
-       <Education />
+      {/*  <Experience />
+       <Education /> */
+       }
         <div className="footer">
           <p>Quick Contact form</p>
           <p>Publications</p>
