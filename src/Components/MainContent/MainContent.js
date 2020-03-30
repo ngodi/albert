@@ -7,14 +7,14 @@ import NavMenu from '../NavMenu/NavMenu';
 import Social from '../Social/Social';
 
 const MainContent = () => {
-
+let year= new Date();
   return (
     <div class="maincontent"  id="about">
        <NavMenu />
        <Header />
        <Projects />
         <div id="publications" className="footer">
-        <div className="copyright">&copy;{year.getFullYear()}&nbsp; Designed by Ngodi Albert</div>
+        <div className="copyright">&copy;{year.getFullYear()} &nbsp; Designed by Ngodi Albert</div>
           <div className="publications">
             <h3>PUBLICATIONS</h3>
             <a target = "_blank" href="https://hackernoon.com/how-to-integrate-devise-and-omniauth-facebook-authentication-to-your-rails-app-tyiv3xpi">1 - How to Integrate ‘devise’ and ‘omniauth-facebook’ Authentication To Your Rails App</a><br />
