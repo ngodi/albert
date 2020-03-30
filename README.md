@@ -15,9 +15,8 @@ Technologies and Tools used
 *   ES6 MODULES
 *   REACTJS
 
-[Live Demo](#)
+[Live link](albertngodi.tech)
 
-Coming soon
 
 Installation & Usage
 --------------------
