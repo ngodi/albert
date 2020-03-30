@@ -13,9 +13,7 @@ const NavMenu = () => {
          <nav>
             <a href="#about">ABOUT ME</a>
             <a href="#projects">PROJECTS</a>
-            <a href="#experience">EXPERIENCE</a>
-            <a href="#education">EDUCATION</a>
-            <a href="#education">CONTACT</a>
+            <a href="#publications">PUBLICATIONS</a>
         </nav>
    </div>
   );

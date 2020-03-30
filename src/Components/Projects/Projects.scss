@@ -1,16 +1,19 @@
 .project {
-    width: 70vw;
+    width: 30vw;
     min-width: 450px;
     margin: 100px auto;
     display:flex;
     padding: 20px;
-    justify-content:space-evenly;
-    align-items: flex-start;
+   flex-direction: column-reverse;
+    align-items: center;
     flex-wrap: wrap;
 
-    &:hover{
-        background: rgba(128, 128, 128, 0.247);
-    }
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .image-div{
     box-shadow: 4px 4px 4px 4px lightgray;
@@ -38,15 +41,9 @@
     margin: -50px auto;
     padding: 100px 0;
     width: 100%;
-    background-image: linear-gradient(to right,rgba(115, 123, 140, 0.8),rgba(115, 123, 140, 0.8)),
-    url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-
     h2{
-        color:#289AF1;
+        color:yellowgreen;
+        text-align: center;
     }
 }
 

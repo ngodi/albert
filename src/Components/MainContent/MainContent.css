@@ -11,8 +11,23 @@
     color: white;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-evenly;
 }
+.publications a, a:link, a:active{
+    text-decoration: none;
+    color:yellowgreen;
+    
+}
+
+.publications{
+    max-width: 300px;
+}
+.publications a:hover{
+    text-decoration: underline;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     .maincontent{

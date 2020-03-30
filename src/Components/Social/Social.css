@@ -6,7 +6,7 @@
 
 .social-links i:hover{
     color:rgb(21, 164, 221);
-    transform: rotate(180deg);
+    transform: rotate(45deg);
 }
 
 .social{

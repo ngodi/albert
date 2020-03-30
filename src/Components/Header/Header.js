@@ -8,7 +8,6 @@ const Header = () => {
     <div class="navigation" >
       <Heading />
       <img className="main-photo" src="./images/de.jpg" alt="My Photo" width="200px" />
-     
       <div id="projects"></div>
     </div>
   );
