@@ -1,7 +1,6 @@
 
 
 .heading{
-    color:white;
     padding:60px 10px;
     max-width: 800px;
 
@@ -31,16 +30,15 @@
 }
 
 .name span{
-    
-    color:white;
     font-size: 100px;
     letter-spacing: 10px;
     font-weight: bold;
     line-height: 120px;
 }
 
-@media only screen and (max-width: 600px) {
-    .contact{
-        flex-direction: column;
+@media only screen and (max-width: 950px) {
+    .name span{
+        font-size: 10vw;
+        line-height: 50px;
     }
   }

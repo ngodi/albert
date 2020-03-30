@@ -1,19 +1,32 @@
 nav{
     display: flex;
     justify-content: center;
+}
+
+.navmenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: white;
     width: 100%;
     margin: 0 auto;
     position: fixed;
     top: 0;
-    left: 0;
-   
-    
+    left: 0; 
     z-index: 10;
-    background: #AAAFBA;
-    box-shadow: 2px 2px 2px gray;
+    box-shadow: 4px 4px 4px gray;
     border-bottom: 1px solid gray;
 }
 
+.logo{
+    border-radius: 50%;
+    color: rgb(21, 164, 221);
+    border: 2px solid rgb(21, 164, 221);
+    box-shadow: 2px 2px 2px lightgray;
+    font-size: 30px;
+    padding: 5px;
+}
 .fa-bars{
     display: none;
     color: lightblue;
@@ -30,18 +43,5 @@ nav a{
 nav a:hover{
     transform: scale(1.1);
     text-decoration: none;
-    color: white;
+    color: gray;
 }
-
-@media only screen and (max-width: 600px) {
-    nav{
-       flex-direction: column;
-       align-items: center;
-       
-       a{
-           box-shadow: 1px 1px 1px 1px lightgray;
-           width: 100%;
-           border-radius: 2px;
-       }
-    }
-  }
