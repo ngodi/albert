@@ -5,7 +5,6 @@
 }
 
 .footer{
-    height: 300px;
     padding: 50px;
     background: rgba(8, 3, 3, 0.795);
     color: white;
@@ -13,6 +12,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
 }
 .publications a, a:link, a:active{
     text-decoration: none;
@@ -31,13 +31,16 @@
 
 @media only screen and (max-width: 600px) {
     .maincontent{
-      width: 100%;
+      width: 100vw;
       margin: 0;
-      min-width: 300px;
     }
    .footer{
        margin-top: -10px;
-       flex-direction: column;
+       flex-direction: column-reverse;
+       flex-wrap: wrap;
    }
+   .publications{
+    margin: 20px 0;
+}
 
   }
