@@ -10,8 +10,10 @@ const Heading = () => {
     
       </div>
       <p className="role">REACT | RUBY ON RAILS</p>
+      <div className="phone">
       <span className="contact">Email: albertngodi@gmail.com - </span>
       <span className="contact">Mobile: +237 672 378 393</span>
+      </div>
    </div>
   );
 }

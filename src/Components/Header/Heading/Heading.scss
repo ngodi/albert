@@ -22,6 +22,10 @@
    background: yellowgreen;
    padding: 5px;
 }
+.phone{
+    display: flex;
+    flex-wrap: wrap;
+}
 .name span{
     font-size: 100px;
     letter-spacing: 10px;
