@@ -15,7 +15,13 @@
         background-size: cover;
         height: 300px;
         transition: all 1s;
-
+      
+        h3{
+            background: white;
+            display: inline;
+            padding: 10px;
+            box-shadow: 3px 3px 3px lightgray;
+        }
     }
     &:hover .project{
         transform: rotateY(-180deg);
@@ -28,6 +34,9 @@
         width: 25vw;
         min-width: 450px;
         display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
         padding: 20px;
         margin: 10px;
         height: 300px;
@@ -66,7 +75,6 @@
 .links{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 10px;
 }
 .links a{
     padding: 3px;
@@ -82,12 +90,7 @@
 }
 
 .project-content{
-    
-    width: 30vw;
-    min-width: 450px;
-
-
-    p{
+      p{
         text-align: justify;
         
     }
@@ -106,9 +109,6 @@
     width: fit-content;
 }
 
-.project img{
-    height: 80%;
-}
 
 .tec{
     margin: 5px 5px 5px 0;
