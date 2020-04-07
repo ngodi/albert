@@ -1,42 +1,58 @@
-.project {
-    width: 30vw;
-    min-width: 450px;
-    margin: 100px auto;
-    display:flex;
-    padding: 20px;
-   flex-direction: column-reverse;
-    align-items: center;
-    flex-wrap: wrap;
+.card {
+    position: relative;
+    perspective: 1500px;
+    -moz-perspective:1500px;
+    .project{
+        width: 25vw;
+        min-width: 450px;
+        display:flex;
+        padding: 20px;
+        margin: 10px;
+       flex-direction: column-reverse;
+        align-items: center;
+        flex-wrap: wrap;
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        transition: all 1s;
 
+    }
+    &:hover .project{
+        transform: rotateY(-180deg);
+        backface-visibility: hidden;
+    }
+    &:hover .project-back{
+        transform: rotateY(0);
+    }
+    .project-back{
+        width: 25vw;
+        min-width: 450px;
+        display:flex;
+        padding: 20px;
+        margin: 10px;
+        height: 300px;
+        transform: rotateY(180deg);
+        transition: all 1s;
+        backface-visibility: hidden;
+        position: absolute;
+        top:0;
+        background: white;
+    
+       
+    }
 }
+
 
 .projects-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.image-div{
-    box-shadow: 4px 4px 4px 4px lightgray;
-    overflow: hidden;
-    border-radius: 5px;
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 30vw;
-    min-width: 450px;
-    margin: 0 auto;
-    img:hover{
-        transform: scale(1.02);
-        transition: 1s;
-    }
- 
+    background: lightgray;
+    padding: 10px 0;
+    
 }
 
-.divider{
-    border-top: 2px solid lightgreen;
-    width:30vw;
-    margin: 0 auto;
-}
+
 .projects{
     margin: -50px auto;
     padding: 100px 0;

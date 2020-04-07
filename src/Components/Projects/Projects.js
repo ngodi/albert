@@ -7,26 +7,26 @@ import './Projects.scss';
 const Projects = () => {
  const projects = projectList.map(project => {
      return (
-       <div>
-         <div class = "project">
-             <div className="image-div">
-             <img src = {project.preview} alt="Preview" width = "100%" />
-             <div className = "links">
+       <div className="card">
+         <div className = "project" style={{backgroundImage:`url(${project.preview})`}}>
+         <h3>{project.title}</h3>
+           </div>
+         <div className="project-back">
+           {/* /// */}
+           <div className = "links">
               <a target = "_blank" href = {project.code} ><i class="fab fa-github"></i>&nbsp;View code</a>
                 <a target = "_blank" href = {project.demo} ><i class="fas fa-external-link-alt"></i>&nbsp;View Demo</a>
               </div>
-            </div> 
             <div className="project-content">
-              <h3>{project.title}</h3>
-              <p>{project.desc}</p>
+               <p>{project.desc}</p>
               <div className = "tech">{project.tech.map(tec => 
                   <span className="tec">{tec}</span>
               )}</div>
           
-            </div>         
+            </div>
+           {/* /// */}
          </div>
-         <div className="divider"></div>
-         </div>
+        </div>
      )
  })
   return (
