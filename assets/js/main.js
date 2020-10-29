@@ -48,42 +48,58 @@ sr.reveal('.work__img', {interval: 200})
 
 sr.reveal('.contact__input', {interval: 200})
 
-    const name = document.getElementById("name");
-    const email = document.getElementById("email");
-    const message = document.getElementById("message");
+  
 
-    name.addEventListener('focus', () => {
-        clearFields(name);
-    })
-    email.addEventListener('focus', () => {
-        clearFields(email);
-    })
-    message.addEventListener('focus', () => {
-        clearFields(message);
-    })
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
+
+name.addEventListener('focus', () => {
+    clearFields(name);
+})
+email.addEventListener('focus', () => {
+    clearFields(email);
+})
+message.addEventListener('focus', () => {
+    clearFields(message);
+})
 
 document.getElementById("buttonClick").addEventListener("click", () => {
-    const name = document.getElementById("name");
-    const email = document.getElementById("email");
-    const message = document.getElementById("message");
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
 
-    checkField(name);
-    checkField(email);
-    checkField(message);
-   
+checkField(name);
+checkField(email);
+checkField(message);
+
+if (name && email && message) {
+    var templateParams = {
+        email: email,
+        name: name,
+        notes: message,
+    };
+     
+    emailjs.send('service_aiexhyo', 'template_ftz9tbx', templateParams)
+        .then(function(response) {
+           console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+           console.log('FAILED...', error);
+        });
+}
 
 })
 
 const checkField = input => {
-    if (!input.value) {
-        input.classList.add("input__error");
-        input.value= ` ${input.id} field must not be empty`;
-        document.querySelector(".error").innerHTML="Please check the required fields above";
-    }
+if (!input.value) {
+    input.classList.add("input__error");
+    input.value= ` ${input.id} field must not be empty`;
+    document.querySelector(".error").innerHTML="Please check the required fields above";
+}
 }
 
 const clearFields = (input) => {
-    input.value = '';
-    input.classList.remove("input__error");
-    document.querySelector(".error").innerHTML = "";
+input.value = '';
+input.classList.remove("input__error");
+document.querySelector(".error").innerHTML = "";
 }
