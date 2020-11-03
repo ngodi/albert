@@ -3,6 +3,14 @@ const about_text = "A talented software developer with experience providing web 
 document.querySelector(".about__text").innerHTML = about_text;
 
 const work = [
+  {
+    title: "GIOVANNI ONLINE STORE",
+    preview: "./assets/img/giovanni.jpg",
+    desc:"Giovanni online store is a full featured ecommerce website allowing users to search products, add products to their shopping cart, checkout, and make payments securely.",
+    tech: ['REACTJS', 'HOOKS', 'MONGODB', 'NODEJS', 'EXPRESS'],
+    code: "https://github.com/ngodi/giovanni-reactjs",
+    demo: "#"
+    },
     {
     title: "BATTLESHIP",
     preview: "./assets/img/battleship.png",
