@@ -7,8 +7,7 @@
     <link rel='icon' href='./assets/img/favicon.ico' type='image/x-icon' sizes="16x16" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>Ngodi Albert | Personal Portfolio</title>
-    <scripttype="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
- 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>   
 </head>
 <body>
     <header class="l-header">
@@ -163,12 +162,12 @@
         <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
             <div class="contact__container bd-grid">
-                <form class="contact_-form">
+                <form class="contact_-form" method="POST">
                     <input type="text" id="name" placeholder="Name" class="contact__input" required>
                     <input type="mail" id="email" placeholder="Email" class="contact__input" required>
                     <textarea name="" id="message" cols="0" rows="10" class="contact__input" required></textarea>
 
-                    <input type="button" id="buttonClick" value="Send" class="contact__button button">
+                    <input type="button" id="buttonClick"  value="Send Email" onclick="sendEmail()" class="contact__button button">
                 </form>
                 <div class="error"></div>
             </div>
@@ -184,7 +183,58 @@
         <p>&#169; 2020 copyright all rights reserved</p>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/main.js"></script>
+    <script>
+                
+        const name = document.getElementById("name");
+        const email = document.getElementById("email");
+        const message = document.getElementById("message");
+
+        name.addEventListener('focus', () => {
+            clearFields(name);
+        })
+        email.addEventListener('focus', () => {
+            clearFields(email);
+        })
+        message.addEventListener('focus', () => {
+            clearFields(message);
+        })
+
+
+
+        const checkField = input => {
+        if (!input.value) {
+            input.classList.add("input__error");
+            input.value= ` ${input.id} field must not be empty`;
+            document.querySelector(".error").innerHTML="Please check the required fields above";
+        }
+        }
+
+        const clearFields = (input) => {
+        input.value = '';
+        input.classList.remove("input__error");
+        document.querySelector(".error").innerHTML = "";
+        }
+
+                function sendEmail() {
+                    checkField(name);
+                    checkField(email);
+                    checkField(message);
+                    if ( name && email && message) {
+                        Email.send({
+                        Host : "smtp.mailtrap.io",
+                        Username : "26ac27239e38e0",
+                        Password : "5546060ae16082",
+                        To : 'albertngodi@gmail.com',
+                        From : email.value,
+                        Subject :`Message from ${name.value}`,
+                        Body : message.value
+                    }).then(
+                    message => document.querySelector(".error").innerHTML = `<span style="color:blue;">${message}</span>`
+                    )
+                    }
+              
+            }
+    </script>
     <script src="assets/js/data.js"></script>
 </body>
 </html>
