@@ -51,17 +51,20 @@ for (let item of work) {
  `)
   document.querySelector(".work__container")
    .insertAdjacentHTML('beforeend',
-  `<div class="work__img">
-      <div class="work__title">${item.title}</div>
-      <div class="tech__stack">${tec}</div>
-      <img src="${item.preview}" alt="" width="100%">
-      <p class="work__description">${item.desc}</p>
-      <div class="work__buttons">
-        <a target="_blank" class="left" href=${item.code}><i class='bx bxl-github'></i>source code</a>
-        <a target="_blank" class="right" href=${item.demo}><i class='bx bxl-internet-explorer'></i>live demo</a>
-      </div>
-   </div>
-
+  `
+  <div class="work__container__sub">
+    <div class="work__img">
+        <img src="${item.preview}" alt="" width="100%" height="100%">
+    </div>
+    
+    <div class="work__title">${item.title}</div>
+    <div class="tech__stack">${tec}</div>
+        <p class="work__description">${item.desc}</p>
+        <div class="work__buttons">
+          <a target="_blank" class="left" href=${item.code}><i class='bx bxl-github'></i>source code</a>
+          <a target="_blank" class="right" href=${item.demo}><i class='bx bxl-internet-explorer'></i>live demo</a>
+        </div>
+ </div>
    `
   )
 }
