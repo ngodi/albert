@@ -9,7 +9,7 @@ const work = [
     desc:"Giovanni online store is a full featured ecommerce website allowing users to search products, add products to their shopping cart, checkout, and make payments securely.",
     tech: ['REACTJS', 'HOOKS', 'MONGODB', 'NODEJS', 'EXPRESS'],
     code: "https://github.com/ngodi/giovanni-reactjs",
-    demo: "#"
+    demo: "http://204.48.17.55/"
     },
     {
     title: "BATTLESHIP",
