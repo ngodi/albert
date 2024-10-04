@@ -10,7 +10,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'http://localhost:3000',
+		url: 'https://ngodi.netlify.app/',
 	},
 	{
 		id: 2,

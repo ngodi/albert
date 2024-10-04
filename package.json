@@ -19,11 +19,11 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-		"start": "react-scripts --openssl-legacy-provider start & yarn build:css",
+		"start": "react-scripts start",
 		"build": "yarn run react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css --watch"
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -43,6 +43,9 @@
 			"last 1 safari version"
 		]
 	},
+  "resolutions": {
+    "caniuse-lite": "1.0.30001632"
+  },
 	"devDependencies": {
 		"@tailwindcss/forms": "^0.5.2",
 		"@testing-library/dom": "^8.20.0",
