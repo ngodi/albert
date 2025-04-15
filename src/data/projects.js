@@ -19,6 +19,7 @@ export const projectsData = [
     ],
     category: 'Mobile Application',
     liveLink: 'https://gomansa.africa',
+    type: 'live'
 	},
 	{
     id: 2,
@@ -34,6 +35,7 @@ export const projectsData = [
     ],
     category: 'Web Application',
     liveLink: 'https://fanbants.com',
+    type: 'live'
 	},
 	{
 		id: 3,
@@ -50,6 +52,7 @@ export const projectsData = [
     ],
     category: 'Web Application',
     liveLink: 'https://futamobile.com',
+    type: 'live'
 	},
 	{
 		id: 4,
@@ -65,5 +68,6 @@ export const projectsData = [
     ],
     category: 'Web Application',
     liveLink: 'https://mboahub-web.netlify.app/',
+    type: 'demo'
 	},
 ];

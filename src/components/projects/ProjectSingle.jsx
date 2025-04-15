@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const ProjectSingle = ({ title, description, accomplishments, technologies, liveLink, sourceLink, image, role, period }) => {
+const ProjectSingle = ({ title, description, accomplishments, technologies, liveLink, sourceLink, image, role, period, type }) => {
   console.log(description)
 	return (
 		<motion.div
@@ -57,7 +57,7 @@ const ProjectSingle = ({ title, description, accomplishments, technologies, live
             className="px-4 py-2 text-white bg-indigo-500 hover:bg-indigo-600 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-300 transition duration-300 ease-in-out"
             aria-label="Live Project"
           >
-            View
+            {type === 'live' ? 'View' : 'Demo'} 
           </a>
 
           {/* Source Code Button */}
@@ -75,7 +75,7 @@ const ProjectSingle = ({ title, description, accomplishments, technologies, live
             aria-label="Source Code"
             disabled={!sourceLink} // Disable button if sourceLink is not provided
           >
-            Source Code
+            {/* Source Code */}
           </a>
         </div>
       </div>
