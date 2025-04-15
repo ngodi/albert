@@ -74,8 +74,11 @@ const ProjectSingle = ({ title, description, accomplishments, technologies, live
             } transition duration-300 ease-in-out`}
             aria-label="Source Code"
             disabled={!sourceLink} // Disable button if sourceLink is not provided
+            style={{
+              display: sourceLink ? 'auto' : 'none',
+            }}  
           >
-            {/* Source Code */}
+            Source Code
           </a>
         </div>
       </div>
